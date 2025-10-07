@@ -1,0 +1,662 @@
+[
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F484%2F516%2Foriginal%2Fgoogle-mail-gmail-icon-logo-symbol-free-png.png&f=1&nofb=1&ipt=b492761e0dca8e70ea240daf0b13fd5546b9acf3a8cf0a8947468310d67c8bbb",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 1,
+    "description": "The official Gmail app brings the best of Gmail to your Android phone or tablet with real-time notifications, multiple account support, and search across your entire inbox.",
+    "size": 90,
+    "reviews": 12500000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 750000
+      },
+      {
+        "name": "2 star",
+        "count": 560000
+      },
+      {
+        "name": "3 star",
+        "count": 890000
+      },
+      {
+        "name": "4 star",
+        "count": 2100000
+      },
+      {
+        "name": "5 star",
+        "count": 8200000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodix.com%2Flogo%2F30517.png&f=1&nofb=1&ipt=fc0b3e74cc29f4bf261f36b5c9291f2cf49f34c6c94ef604b6e20d183b131044",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 2,
+    "description": "Navigate your world faster and easier with Google Maps. Over 220 countries and territories mapped and hundreds of millions of businesses and places on the map.",
+    "size": 95,
+    "reviews": 15700000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 820000
+      },
+      {
+        "name": "2 star",
+        "count": 650000
+      },
+      {
+        "name": "3 star",
+        "count": 1200000
+      },
+      {
+        "name": "4 star",
+        "count": 2500000
+      },
+      {
+        "name": "5 star",
+        "count": 10600000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Fyoutube-icon-21.png&f=1&nofb=1&ipt=f263b589442daabdddff32d476bfcbf2378ea38232a3ea853d21f93a8f86b7e4",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Enjoy your favorite videos and channels with the official YouTube app. Watch, stream, and share videos anytime and anywhere.",
+    "size": 110,
+    "reviews": 140000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 7500000
+      },
+      {
+        "name": "2 star",
+        "count": 5200000
+      },
+      {
+        "name": "3 star",
+        "count": 10000000
+      },
+      {
+        "name": "4 star",
+        "count": 25000000
+      },
+      {
+        "name": "5 star",
+        "count": 95000000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/pZz6eeUZoVhGg7zvI5LPgbbRT9YI1IKZqTgw3Z6rQZjEUyd1MKU4YvDkM8lZDB7vKpE=s180",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Google Drive lets you back up and access your files from any device. Store, share, and collaborate safely.",
+    "size": 85,
+    "reviews": 10700000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 320000
+      },
+      {
+        "name": "3 star",
+        "count": 640000
+      },
+      {
+        "name": "4 star",
+        "count": 1600000
+      },
+      {
+        "name": "5 star",
+        "count": 7700000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62a8944ada9e7313e0262a73.png&f=1&nofb=1&ipt=5f0d10d90c69b48e5b1b3c7e714a585e51b2daad251aaf08624751252420c58a",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Google Photos is the home for all your photos and videos, automatically organized and easy to share.",
+    "size": 100,
+    "reviews": 10800000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 410000
+      },
+      {
+        "name": "3 star",
+        "count": 690000
+      },
+      {
+        "name": "4 star",
+        "count": 1500000
+      },
+      {
+        "name": "5 star",
+        "count": 7800000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/U4V3-Py3bYo1MXrI1uRr6F8z5ZZqCtp4Uo6O9f0Ba7s1rL7B3r8mIYGfrHLvO36AhJY=s180",
+    "title": "Google Calendar",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Get the official Google Calendar app for your Android phone and tablet to save time and make the most of every day.",
+    "size": 40,
+    "reviews": 2000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 90000
+      },
+      {
+        "name": "2 star",
+        "count": 110000
+      },
+      {
+        "name": "3 star",
+        "count": 210000
+      },
+      {
+        "name": "4 star",
+        "count": 400000
+      },
+      {
+        "name": "5 star",
+        "count": 1250000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F027%2F179%2F352%2Foriginal%2Fgoogle-keep-icon-logo-symbol-free-png.png&f=1&nofb=1&ipt=801b1374e31d209ea6c073f8ea0485b0b0b204c7210e6b575b796ef89b296d51",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Quickly capture what’s on your mind and share those thoughts with friends and family using Google Keep.",
+    "size": 35,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 80000
+      },
+      {
+        "name": "2 star",
+        "count": 95000
+      },
+      {
+        "name": "3 star",
+        "count": 180000
+      },
+      {
+        "name": "4 star",
+        "count": 350000
+      },
+      {
+        "name": "5 star",
+        "count": 1100000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fgoogle-chrome-app-logo-icon-google-chrome-app-logo-icon-popular-internet-browser-icon-editorial-vector-illustration-330152355.jpg&f=1&nofb=1&ipt=ddd215999411501950e7b703cdc7968707e47a9e88721f661c5032b083564411",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Google Chrome is a fast, easy to use, and secure web browser. Designed for Android, Chrome brings you personalized news articles, quick links, and more.",
+    "size": 120,
+    "reviews": 44000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3800000
+      },
+      {
+        "name": "2 star",
+        "count": 3100000
+      },
+      {
+        "name": "3 star",
+        "count": 5600000
+      },
+      {
+        "name": "4 star",
+        "count": 9600000
+      },
+      {
+        "name": "5 star",
+        "count": 22000000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F046%2F861%2F641%2Foriginal%2Fgoogle-translate-icon-transparent-background-free-png.png&f=1&nofb=1&ipt=005f7cee2ee1dde91a45dfa98395a3c118bfef5819430efff4e6e76b8a7f0e3a",
+    "title": "Google Translate",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Translate text, voice, images, and conversations instantly with Google Translate.",
+    "size": 60,
+    "reviews": 8700000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 420000
+      },
+      {
+        "name": "3 star",
+        "count": 670000
+      },
+      {
+        "name": "4 star",
+        "count": 1400000
+      },
+      {
+        "name": "5 star",
+        "count": 6300000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.logodee.com%2Fwp-content%2Fuploads%2F2022%2F04%2F6.jpg&f=1&nofb=1&ipt=862f791099ece70b3fb0b869272fd71cc517a143ed253fecc27b5bb9c70e4045",
+    "title": "Google News",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Google News organizes what’s happening in the world to help you learn more about the stories that matter to you.",
+    "size": 45,
+    "reviews": 2400000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 180000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 360000
+      },
+      {
+        "name": "4 star",
+        "count": 500000
+      },
+      {
+        "name": "5 star",
+        "count": 1160000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Fwhatsapp%2Flogo-whatsapp-verde-icone-ios-android-2048.png&f=1&nofb=1&ipt=0c71857b63ba0308523187765b2db77255d7e8ed4d700c2d6ad01ba2ee55c4bf",
+    "title": "WhatsApp",
+    "companyName": "WhatsApp LLC",
+    "id": 11,
+    "description": "WhatsApp Messenger allows you to send messages, make voice and video calls, and share media with friends and family securely.",
+    "size": 80,
+    "reviews": 200000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 10000000
+      },
+      {
+        "name": "2 star",
+        "count": 8000000
+      },
+      {
+        "name": "3 star",
+        "count": 15000000
+      },
+      {
+        "name": "4 star",
+        "count": 35000000
+      },
+      {
+        "name": "5 star",
+        "count": 142000000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fspotify-logo-png-spotify-music-app-icon-1024.jpg&f=1&nofb=1&ipt=e0cfade710c754403a402b24df5c425c4e172ec027cd72b677e7eefa1afb3763",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 12,
+    "description": "Listen to millions of songs, podcasts, and playlists with Spotify. Discover new music and enjoy your favorite tracks.",
+    "size": 70,
+    "reviews": 30000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 1200000
+      },
+      {
+        "name": "3 star",
+        "count": 2400000
+      },
+      {
+        "name": "4 star",
+        "count": 6000000
+      },
+      {
+        "name": "5 star",
+        "count": 18900000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F08%2F09%2F17%2F52%2Finstagram-1581266_1280.jpg&f=1&nofb=1&ipt=58b7cc3a8f0211238c80e48d0c09f3daafac698878ce88698c6c3347cb990ebf",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 13,
+    "description": "Share photos, videos, and stories with Instagram. Connect with friends and discover new content from around the world.",
+    "size": 65,
+    "reviews": 150000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 9000000
+      },
+      {
+        "name": "2 star",
+        "count": 7000000
+      },
+      {
+        "name": "3 star",
+        "count": 12000000
+      },
+      {
+        "name": "4 star",
+        "count": 30000000
+      },
+      {
+        "name": "5 star",
+        "count": 101000000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F013%2F901%2F773%2Foriginal%2Ffacebook-icon-ios-facebook-social-media-logo-on-white-background-free-free-vector.jpg&f=1&nofb=1&ipt=9e92089dceb0b1774fb647f37160278960784cf8d29528c13974ba889cb0ab8f",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 14,
+    "description": "Connect with friends, family, and communities on Facebook. Share updates, photos, and videos with ease.",
+    "size": 75,
+    "reviews": 130000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 8000000
+      },
+      {
+        "name": "2 star",
+        "count": 6000000
+      },
+      {
+        "name": "3 star",
+        "count": 11000000
+      },
+      {
+        "name": "4 star",
+        "count": 28000000
+      },
+      {
+        "name": "5 star",
+        "count": 87000000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F012%2F871%2F376%2Foriginal%2Fzoom-logo-in-blue-colors-meetings-app-logotype-illustration-free-png.png&f=1&nofb=1&ipt=c14c17982e39abfbcb84664800c20da0de9965f9b821c498dae2234c7920fe11",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 15,
+    "description": "Zoom is a video conferencing app for meetings, webinars, and team collaboration, with HD video and audio.",
+    "size": 50,
+    "reviews": 6000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 240000
+      },
+      {
+        "name": "3 star",
+        "count": 480000
+      },
+      {
+        "name": "4 star",
+        "count": 1200000
+      },
+      {
+        "name": "5 star",
+        "count": 3780000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F15%2FMicrosoft-Teams-Logo-No-Background.png&f=1&nofb=1&ipt=5a5e7165c843eeea306213eab0ac57b730bdf36a95a286bdcb42a5c5a231e8b6",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 16,
+    "description": "Microsoft Teams is your hub for teamwork, with chat, video meetings, and file collaboration all in one place.",
+    "size": 90,
+    "reviews": 7000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 350000
+      },
+      {
+        "name": "2 star",
+        "count": 280000
+      },
+      {
+        "name": "3 star",
+        "count": 560000
+      },
+      {
+        "name": "4 star",
+        "count": 1400000
+      },
+      {
+        "name": "5 star",
+        "count": 4410000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F10%2FDropbox-Logo-2017-present.jpg&f=1&nofb=1&ipt=55a12c22f90df56c6bf38e84d2a601e820645171d035eb4379f37d8371e43cc8",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 17,
+    "description": "Dropbox lets you store, share, and collaborate on files securely from anywhere, with easy access on all devices.",
+    "size": 55,
+    "reviews": 2200000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 160000
+      },
+      {
+        "name": "4 star",
+        "count": 400000
+      },
+      {
+        "name": "5 star",
+        "count": 1460000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogowik.com%2Fcontent%2Fuploads%2Fimages%2F113_evernote.jpg&f=1&nofb=1&ipt=55052b206694c72c54303804406e80cb63fd5f6cbf28566359104ea60fa6714b",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 18,
+    "description": "Evernote helps you capture and prioritize ideas, projects, and to-do lists, so nothing falls through the cracks.",
+    "size": 60,
+    "reviews": 1800000,
+    "ratingAvg": 4.1,
+    "downloads": 100000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 160000
+      },
+      {
+        "name": "4 star",
+        "count": 360000
+      },
+      {
+        "name": "5 star",
+        "count": 1100000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F038%2F123%2F741%2Fnon_2x%2Fslack-account-app-logo-in-big-sur-style-3d-render-icon-design-concept-element-isolated-transparent-background-free-png.png&f=1&nofb=1&ipt=7b01e275c51d52435d7abc9e4d042f0f44b78efd85480938ded980f36a69a6b8",
+    "title": "Slack",
+    "companyName": "Slack Technologies, Inc.",
+    "id": 19,
+    "description": "Slack brings team communication and collaboration into one place so you can get more done, whether you’re at a small startup or a large enterprise.",
+    "size": 70,
+    "reviews": 2500000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 120000
+      },
+      {
+        "name": "2 star",
+        "count": 100000
+      },
+      {
+        "name": "3 star",
+        "count": 200000
+      },
+      {
+        "name": "4 star",
+        "count": 500000
+      },
+      {
+        "name": "5 star",
+        "count": 1580000
+      }
+    ]
+  },
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreeappsforme.com%2Fwp-content%2Fuploads%2F2019%2F06%2Ftrello-logo-1024x1024.png&f=1&nofb=1&ipt=6827fb990b6fa3d3de86565826f2180d9e85bc8b141e5ee87a2d5e603c8e9ae4",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 20,
+    "description": "Trello is a visual tool for organizing your work and life. Manage projects, tasks, and teams with ease.",
+    "size": 45,
+    "reviews": 1500000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 70000
+      },
+      {
+        "name": "2 star",
+        "count": 60000
+      },
+      {
+        "name": "3 star",
+        "count": 120000
+      },
+      {
+        "name": "4 star",
+        "count": 300000
+      },
+      {
+        "name": "5 star",
+        "count": 943000
+      }
+    ]
+  }
+]
