@@ -1,2 +1,148 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  /* Base (Backgrounds & Layout) */
+  --color-base-100: oklch(100% 0 0);
+  /* White sections */
+  --color-base-200: oklch(92.5% 0.015 255.3);
+  /* Light gray (cards, placeholders) */
+  --color-base-300: oklch(21.1% 0.032 259.7);
+  /* Navy background/footer */
+  --color-base-content: oklch(26.5% 0.031 258.1);
+  /* Main text color */
+
+  /* Primary (Brand Purple) */
+  --color-primary: oklch(0.5 0.25 286.64);
+  /* Main accent (buttons, links) */
+  --color-primary-content: oklch(100% 0 0);
+  /* Button text */
+
+  /* Secondary (Subtle gray-blue accent) */
+  --color-secondary: oklch(0.63 0.21 299.98);
+  /* Secondary text / outlines */
+  --color-secondary-content: oklch(100% 0 0);
+  /* Contrast text on secondary bg */
+
+  /* Accent (Charts, highlights, orange parts) */
+  --color-accent: oklch(69.8% 0.192 56.8);
+  /* Orange rating bar/accent */
+  --color-accent-content: oklch(14% 0 0);
+  /* Dark text on accent */
+
+  /* Neutral (Dividers, shadows) */
+  --color-neutral: oklch(37% 0.02 260);
+  /* Neutral mid-tone gray-blue */
+  --color-neutral-content: oklch(92% 0.004 286.32);
+  /* Light content over dark */
+
+  /* Info/Success/Warning/Error — tuned to your palette */
+  --color-info: oklch(82% 0.08 240);
+  /* Info blue */
+  --color-info-content: oklch(26% 0.02 250);
+
+  --color-success: oklch(0.77 0.17 161.5);
+  /* Green for success */
+  --color-success-content: oklch(100% 0 0);
+  /* Yellow-orange */
+  --color-warning: oklch(85% 0.199 91.936);
+  --color-warning-content: oklch(42% 0.095 57.708);
+  /* Red for error */
+  --color-error: oklch(63% 0.237 25.331);
+  --color-error-content: oklch(14% 0.005 285.823);
+
+  /* Design tokens */
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  /* Base (Backgrounds & Layout) */
+  --color-base-100: oklch(15% 0.015 260);
+  /* Deep navy background */
+  --color-base-200: oklch(20% 0.02 260);
+  /* Slightly lighter panels/cards */
+  --color-base-300: oklch(28% 0.03 260);
+  /* Elevated surfaces */
+  --color-base-content: oklch(95% 0.01 255);
+  /* Main readable text (light gray) */
+
+  /* Primary (Brand Purple) */
+  --color-primary: oklch(0.5 0.25 286.64);
+  /* Vibrant purple for highlights */
+  --color-primary-content: oklch(15% 0.01 260);
+  /* Dark text on light primary */
+
+  /* Secondary (Soft gray-blue accent) */
+  --color-secondary: oklch(0.63 0.21 299.98);
+  /* Muted bluish-gray for less emphasis */
+  --color-secondary-content: oklch(15% 0 0);
+  /* Dark contrast text */
+
+  /* Accent (Orange for charts/highlights) */
+  --color-accent: oklch(72% 0.19 56.8);
+  /* Warm orange for contrast */
+  --color-accent-content: oklch(15% 0 0);
+  /* Dark contrast text */
+
+  /* Neutral (Dividers, text borders, shadows) */
+  --color-neutral: oklch(30% 0.02 260);
+  /* Mid-dark neutral */
+  --color-neutral-content: oklch(90% 0.01 255);
+  /* Light text on dark neutral */
+
+  /* Info/Success/Warning/Error */
+  --color-info: oklch(78% 0.09 240);
+  /* Brighter blue for clarity */
+  --color-info-content: oklch(18% 0.02 250);
+
+  --color-success: oklch(0.77 0.17 161.5);
+  /* Bright green */
+  --color-success-content: oklch(15% 0.02 150);
+
+  --color-warning: oklch(78% 0.19 91.9);
+  /* Amber yellow */
+  --color-warning-content: oklch(20% 0.05 80);
+
+  --color-error: oklch(67% 0.23 25.3);
+  /* Vivid red */
+  --color-error-content: oklch(15% 0.01 280);
+
+  /* Design tokens */
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+.btn-linear {
+  background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
+  @apply text-primary-content
+}
+
+.btn-green {
+
+  @apply text-success-content bg-success
+}
