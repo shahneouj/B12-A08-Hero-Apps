@@ -7,17 +7,14 @@
 
 @plugin "daisyui/theme" {
   name: "light";
-  default: false;
-  prefersdark: false;
-  color-scheme: "light";
   /* Base (Backgrounds & Layout) */
   --color-base-100: oklch(100% 0 0);
   /* White sections */
   --color-base-200: oklch(92.5% 0.015 255.3);
-  /* Light gray (cards, placeholders) */
-  --color-base-300: oklch(21.1% 0.032 259.7);
+  /* Light oklch(0.6 0 0) (cards, placeholders) */
+  --color-base-300: oklch(0.97 0 0);
   /* Navy background/footer */
-  --color-base-content: oklch(26.5% 0.031 258.1);
+  --color-base-content: oklch(0.27 0.03 256.85);
   /* Main text color */
 
   /* Primary (Brand Purple) */
@@ -68,13 +65,11 @@
   --border: 1px;
   --depth: 1;
   --noise: 0;
+  --gradient-main: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
 }
 
 @plugin "daisyui/theme" {
   name: "dark";
-  default: false;
-  prefersdark: false;
-  color-scheme: "dark";
   /* Base (Backgrounds & Layout) */
   --color-base-100: oklch(15% 0.015 260);
   /* Deep navy background */
@@ -135,14 +130,42 @@
   --border: 1px;
   --depth: 1;
   --noise: 0;
+  --gradient-main: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
 }
 
 .btn-linear {
-  background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
-  @apply text-primary-content
+  background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98)) !important;
+  @apply btn text-primary-content
 }
 
 .btn-green {
+  @apply btn text-success-content bg-success
+}
 
-  @apply text-success-content bg-success
+html {
+  @apply bg-base-300
+}
+
+a.active, a:hover, li:hover {
+  background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration-line: underline;
+  text-decoration-color: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
+  @apply !underline !underline-offset-4 decoration-2
+}
+
+@layer base {
+  a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-primary);
+  }
+
+  .text-linear {
+    background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 }

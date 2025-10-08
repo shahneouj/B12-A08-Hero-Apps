@@ -1,9 +1,10 @@
 import React from 'react';
+import InstalledApps from '../../component/InstalledApps/InstalledApps';
 
 const Installation = () => {
   return (
     <div>
-      From instalation page
+      <InstalledApps></InstalledApps>
     </div>
   );
 };

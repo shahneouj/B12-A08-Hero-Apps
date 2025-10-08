@@ -1,9 +1,10 @@
 import React from 'react';
+import Card from '../../component/Card/Card';
 
 const Apps = () => {
   return (
     <div>
-      form app page
+      <Card></Card>
     </div>
   );
 };
