@@ -5,6 +5,7 @@ import Home from "../pages/Home/Home";
 import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installatioin/Installation";
 import Error from "../pages/404/404";
+import axios from "axios";
 
 const router = createBrowserRouter([
 
@@ -14,6 +15,9 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        loader: async () => {
+          return (await axios('./apps-data.json')).data
+        },
         Component: Home
       },
       {

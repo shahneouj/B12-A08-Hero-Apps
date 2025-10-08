@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router';
 import github from '../../assets/icons/github.png'
 import logo from '../../assets/logo.png'
-
+import { IoLogoGithub } from "react-icons/io";
 const Header = () => {
   const link = <>
     <li ><NavLink to={'/'} end >Home</NavLink></li>
@@ -40,7 +40,8 @@ const Header = () => {
           </div>
           <div className="navbar-end">
             <button className="btn-linear">
-              <img src={github} alt="" />
+              {/* <img src={github} alt="" /> */}
+              <IoLogoGithub />
               Contribute
             </button>
           </div>

@@ -1,11 +1,16 @@
-
+import logo from '../../assets/logo.png'
 const Footer = () => {
   return (
     <>
-      <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
+      <footer className=" sm:footer-horizontal bg-info-content text-neutral-content items-center p-4">
         <div className="max-w-[1440px] mx-auto footer items-center grid-cols-2">
           <aside className="grid-flow-col items-center">
-
+            <div className=" flex  items-center font-bold text-xl ">
+              <img src={logo} alt="" className='size-10' />
+              <p className='text-white ml-2 '>
+                HERO.IO
+              </p>
+            </div>
 
           </aside>
           <nav className="grid-flow-row gap-4 md:place-self-center md:justify-self-end">
@@ -47,11 +52,13 @@ const Footer = () => {
               </a>
             </div>
           </nav>
+          <aside className='footer sm:footer-horizontal footer-center  text-white p-4 bg-info-content border-t-[0.1px] border-[#E5E7EB] col-span-2'>
+            <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+          </aside>
         </div>
+
       </footer>
-      <aside className='footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4'>
-        <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-      </aside>
+
     </>
   );
 };

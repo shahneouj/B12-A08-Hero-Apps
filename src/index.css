@@ -44,7 +44,7 @@
   /* Info/Success/Warning/Error — tuned to your palette */
   --color-info: oklch(82% 0.08 240);
   /* Info blue */
-  --color-info-content: oklch(26% 0.02 250);
+  --color-info-content: oklch(0.21 0.06 248.96);
 
   --color-success: oklch(0.77 0.17 161.5);
   /* Green for success */
@@ -67,6 +67,7 @@
   --noise: 0;
   --gradient-main: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
 }
+
 
 @plugin "daisyui/theme" {
   name: "dark";
@@ -107,7 +108,7 @@
   /* Info/Success/Warning/Error */
   --color-info: oklch(78% 0.09 240);
   /* Brighter blue for clarity */
-  --color-info-content: oklch(18% 0.02 250);
+  --color-info-content: oklch(0.21 0.06 248.96);
 
   --color-success: oklch(0.77 0.17 161.5);
   /* Bright green */
@@ -157,7 +158,9 @@ a.active, a:hover, li:hover {
 }
 
 @layer base {
-  a:hover {
+
+  a:hover,
+  a.active {
     text-decoration-line: underline;
     text-decoration-color: var(--color-primary);
   }
@@ -168,4 +171,17 @@ a.active, a:hover, li:hover {
     background-clip: text;
     color: transparent;
   }
+}
+
+@utility btn {
+  color: #ffff !important
+}
+
+section {
+  @apply md:max-w-[1440px] mx-auto;
+}
+
+.reviews {
+  background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
+  @apply !max-w-full;
 }
