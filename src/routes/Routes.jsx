@@ -4,36 +4,38 @@ import Loder from "../component/Loder/Loder";
 import Home from "../pages/Home/Home";
 import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installatioin/Installation";
-import Error from "../pages/404/404";
+import Errorpath from "../pages/404/not-found";
 import axios from "axios";
+import AppDetails from "../pages/AppDetails/AppDetails";
 
 const router = createBrowserRouter([
 
   {
     path: '/',
+    errorElement: <Errorpath></Errorpath>,
+    hydrateFallbackElement: <Loder />,
     Component: Root,
+
     children: [
       {
         index: true,
-        loader: async () => {
-          return (await axios('./apps-data.json')).data
-        },
+        loader: () => axios('../apps-data.json').then((dt) => dt.data),
         Component: Home
       },
       {
-        path: 'apps',
+        path: '/apps',
+        loader: () => axios('../apps-data.json').then((dt) => dt.data),
         Component: Apps
       },
       {
-        path: 'installation',
+        path: '/installation',
         Component: Installation
       },
-
       {
-        path: '/*',
-        Component: Error
-      }
-
+        path: '/appDetails/:id',
+        loader: () => axios('../apps-data.json').then((dt) => dt.data),
+        Component: AppDetails
+      },
     ]
 
   }

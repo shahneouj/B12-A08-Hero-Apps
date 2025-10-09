@@ -1,13 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { NavLink, Link } from 'react-router';
 import github from '../../assets/icons/github.png'
 import logo from '../../assets/logo.png'
 import { IoLogoGithub } from "react-icons/io";
 const Header = () => {
   const link = <>
-    <li ><NavLink to={'/'} end >Home</NavLink></li>
-    <li ><NavLink to={'/apps'} end>Apps</NavLink></li>
-    <li ><NavLink to={'/installation'} end>Installation</NavLink></li>
+    <li className={'links'}><NavLink to={'/'} end  >Home</NavLink></li>
+    <li className={'links'}><NavLink to={'/apps'} end >Apps</NavLink></li>
+    <li className={'links'}><NavLink to={'/installation'} end >Installation</NavLink></li>
   </>
   return (
     <>

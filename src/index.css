@@ -114,7 +114,7 @@
   /* Bright green */
   --color-success-content: oklch(15% 0.02 150);
 
-  --color-warning: oklch(78% 0.19 91.9);
+  --color-warning: oklch(0.82 0.17 88.9);
   /* Amber yellow */
   --color-warning-content: oklch(20% 0.05 80);
 
@@ -136,7 +136,7 @@
 
 .btn-linear {
   background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98)) !important;
-  @apply btn text-primary-content
+  @apply btn text-primary-content py-3 w-[150px]
 }
 
 .btn-green {
@@ -147,22 +147,27 @@ html {
   @apply bg-base-300
 }
 
-a.active, a:hover, li:hover {
+/* li.link:hover {
   background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-decoration-line: underline;
+
   text-decoration-color: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
-  @apply !underline !underline-offset-4 decoration-2
-}
+
+} */
 
 @layer base {
 
-  a:hover,
-  a.active {
-    text-decoration-line: underline;
+  .links:hover,
+  .active {
+
     text-decoration-color: var(--color-primary);
+    background: linear-gradient(78deg, oklch(0.5 0.25 286.64), oklch(0.63 0.21 299.98));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    @apply !underline !underline-offset-4 decoration-2
   }
 
   .text-linear {
@@ -176,6 +181,8 @@ a.active, a:hover, li:hover {
 @utility btn {
   color: #ffff !important
 }
+
+
 
 section {
   @apply md:max-w-[1440px] mx-auto;

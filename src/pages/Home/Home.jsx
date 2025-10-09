@@ -6,9 +6,10 @@ import Applestore from '../../assets/icons/apple.jpg'
 import Card from '../../component/Card/Card';
 import { useLoaderData } from 'react-router';
 
+
 const Home = () => {
-  const data = useLoaderData();
-  console.log(data);
+
+  const homeData = useLoaderData()
 
   return (
     <>
@@ -51,21 +52,22 @@ const Home = () => {
           </div>
         </div>
       </section >
-      <section className="appCards py-20 space-y-10">
+      <section className="appCards py-20 space-y-10 text-center">
         <div className="appHeader text-center space-y-4">
           <h2 className='text-5xl  font-extrabold'>Trending Apps</h2>
           <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
 
         </div>
-        <div className="appCard grid grid-cols-4 gap-4">
+        <div className="appCard grid md:grid-cols-4 gap-4 pt-4">
           {
-            data.slice(0, 8).map((value) => {
+            homeData.map((value) => {
               return <Card key={value.id} value={value}></Card>
             })
           }
-
-
         </div>
+        <button className="btn-linear">
+          Show All
+        </button>
       </section>
     </>
   );

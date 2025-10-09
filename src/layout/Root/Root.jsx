@@ -1,8 +1,9 @@
 import React from 'react';
-import { Outlet } from 'react-router';
+import { Outlet, useLoaderData } from 'react-router';
 import Header from '../../component/Header/Header';
 import Footer from '../../component/Footer/Footer';
 const Root = () => {
+  const data = useLoaderData();
   return (
     <>
       <Header></Header>
