@@ -1,13 +1,16 @@
 import React from 'react';
-import { Outlet, useLoaderData } from 'react-router';
+import { Outlet, useLoaderData, useNavigation } from 'react-router';
 import Header from '../../component/Header/Header';
 import Footer from '../../component/Footer/Footer';
+import Loder from "../../component/Loder/Loder";
 const Root = () => {
-  const data = useLoaderData();
+
+  const navigation = useNavigation();
+
   return (
     <>
       <Header></Header>
-      <Outlet></Outlet>
+      {navigation.loding ? <Loder></Loder> : <Outlet></Outlet>}
       <Footer></Footer>
     </>
   );

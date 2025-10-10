@@ -40,29 +40,29 @@ const AppDetails = () => {
   return (
     <>
       <section className="py-20 space-y-10">
-        <div className="appdetails grid grid-cols-[1fr_3fr] gap-x-10 ">
+        <div className="appdetails grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-10 ">
           <div className="img">
-            <img src={image} alt="" className="h-full aspect-auto object-cover" />
+            <img src={image} alt="" className="h-full w-full aspect-auto object-cover" />
           </div>
           <div className="details-info">
-            <h2 className="text-[32px] font-extrabold text-[#001931]">{title}</h2>
+            <h2 className="text-[32px] font-bold text-[#001931]">{title}</h2>
             <p>Developed by <span className="text-linear font-bold">{companyName}</span></p>
             <span className="border border-t border-gray-300 w-full block my-10"></span>
             <div className="info flex justify-start gap-x-6 mb-4">
-              <div className="downloads p-1.5  flex-col items-start w-[150px] ">
+              <div className="downloads md:p-1.5  flex-col items-start md:w-[150px] ">
                 <MdOutlineFileDownload size={"40px"} color="oklch(0.77 0.17 161.5)"></MdOutlineFileDownload>
                 <span className="text-base font-normal text-[#001931]">Downloads<br /></span>
-                <span className="text-[40px] font-extrabold">{format(downloads)}</span>
+                <span className="text-2xl md:text-[40px] font-bold md:font-extrabold">{format(downloads)}</span>
               </div>
-              <div className="reviewNum p-1.5  flex-col items-start  w-[150px] ">
+              <div className="reviewNum md:p-1.5  flex-col items-start  md:w-[150px] ">
                 <FaStar size={"40px"} color="oklch(0.82 0.17 88.9)"></FaStar>
                 <span className="text-base font-normal text-[#001931]">Average Ratings<br /></span>
-                <span className="text-[40px] font-extrabold">{ratingAvg}</span>
+                <span className="text-2xl md:text-[40px] font-bold md:font-extrabold">{ratingAvg}</span>
               </div>
-              <div className="likeNum p-1.5  flex-col items-start   w-[150px] ">
+              <div className="likeNum md:p-1.5  flex-col items-center  md:w-[150px] ">
                 <img src={like} alt="" />
                 <span className="text-base font-normal text-[#001931]">Average Ratings<br /></span>
-                <span className="text-[40px] font-extrabold">{format(reviews)}</span>
+                <span className="text-2xl md:text-[40px] font-bold md:font-extrabold">{format(reviews)}</span>
               </div>
 
             </div>

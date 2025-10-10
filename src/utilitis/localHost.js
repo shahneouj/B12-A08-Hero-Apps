@@ -17,7 +17,5 @@ export const removeFromLocal = (id) => {
   const app = JSON.parse(localStorage.getItem(STORAGE_NAME));
 
   const newApp = app.filter(item => Number(item.id) !== id);
-  console.log(newApp);
-
   localStorage.setItem(STORAGE_NAME, JSON.stringify(newApp));
 }

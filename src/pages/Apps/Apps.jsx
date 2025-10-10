@@ -21,12 +21,12 @@ const Apps = () => {
     <>
       {/* <Card></Card> */}
       <section className="appHeader text-center space-y-4 pt-20 pb-10">
-        <h1 className='text-5xl font-bold '>Our All Application</h1>
-        <p>Explore All Apps on the Market developed by us. We code for Millions</p>
+        <h1 className=' text-2xl md:text-5xl font-bold '>Our All Application</h1>
+        <p className='text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
       </section>
 
       <section className="apps">
-        <div className="search flex justify-between items-center">
+        <div className="search flex md:flex-row flex-col gap-4 justify-between items-center">
           <h3 className='text-2xl font-semibold'>({appDatas.length}) Apps Found</h3>
           <div className="searchBox">
             <label className="flex items-center gap-x-2 border border-[#627382] px-4 py-3 md:w-[400px] rounded text-[#627382]">
