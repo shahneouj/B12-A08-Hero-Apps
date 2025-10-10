@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 const Footer = () => {
   return (
     <>
-      <footer className=" sm:footer-horizontal bg-info-content text-neutral-content items-center p-4">
+      <footer className=" sm:footer-horizontal bg-info-content text-neutral-content items-center p-4 mt-12">
         <div className="max-w-[1440px] mx-auto footer items-center grid-cols-1 md:grid-cols-2">
           <aside className="grid-flow-col items-center">
             <Link to="/">
