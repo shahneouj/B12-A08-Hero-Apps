@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const STORAGE_NAME = 'AppList'
 
 export const setDataToLocal = (d) => {
@@ -18,4 +20,5 @@ export const removeFromLocal = (id) => {
 
   const newApp = app.filter(item => Number(item.id) !== id);
   localStorage.setItem(STORAGE_NAME, JSON.stringify(newApp));
+  toast.error("Uninstalling the  App")
 }

@@ -14,7 +14,7 @@ const Apps = () => {
       const searchApps = term ? appDatas.filter(app => app.title.toLowerCase().includes(term)) : appDatas;
       setSearchData(searchApps);
       setIsloading(false);
-    }, 5000);
+    }, 2000);
   }
 
   return (

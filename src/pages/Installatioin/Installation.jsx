@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import InstalledApps from '../../component/InstalledApps/InstalledApps';
 import { getDataToLocal, removeFromLocal } from '../../utilitis/localHost';
 import { useLoaderData } from 'react-router';
+import { ToastContainer } from 'react-toastify';
 
 const Installation = () => {
   const array = useLoaderData();
@@ -21,8 +22,9 @@ const Installation = () => {
 
   return (
     <section className='py-20 h-[80dvh] '>
+      <ToastContainer />
       <div className="heading flex flex-col place-content-center place-items-center gap-y-4 ">
-        <h2 className=' text-2xl md:text-5xl text-[#001931] font-bold md:font-extrabold'>Your Installed Apps</h2>
+        <h2 className=' text-2xl md:text-5xl text-[#001931] font-bold '>Your Installed Apps</h2>
         <p className='text-base text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
       </div>
       <div className="sort flex md:flex-row flex-col gap-4 w-full justify-between items-center py-10">

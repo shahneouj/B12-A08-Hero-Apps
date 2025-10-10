@@ -15,13 +15,13 @@ import { useLoaderData, useParams } from "react-router";
 import { format } from "../../utilitis/utilitis";
 import { getDataToLocal, setDataToLocal } from "../../utilitis/localHost";
 import { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const appDeatialsData = useLoaderData();
   const { id } = useParams();
   const newDetailsData = appDeatialsData.find((a) => Number(id) === a.id);
   const { ratings, image, title, companyName, downloads, ratingAvg, reviews, size, description } = newDetailsData;
-  const [clickable, setClickable] = useState(false)
   const store = {
     image,
     title,
@@ -31,15 +31,17 @@ const AppDetails = () => {
     id
   }
   const installed = getDataToLocal().includes(JSON.stringify(newDetailsData.id));
+  const [clickable, setClickable] = useState(() => installed)
   const handlbtnClick = () => {
     setDataToLocal(store);
     setClickable(true)
-
+    toast.success("Installing the  App")
   }
 
   return (
     <>
       <section className="py-20 space-y-10">
+        <ToastContainer />
         <div className="appdetails grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-10 ">
           <div className="img">
             <img src={image} alt="" className="h-full w-full aspect-auto object-cover" />
