@@ -1,6 +1,5 @@
 import { FaStar } from "react-icons/fa6";
 import { MdOutlineFileDownload } from "react-icons/md";
-import demoImg from '../../assets/demo-app6.webp';
 import like from '../../assets/icon-review.png';
 import {
   ComposedChart,
@@ -14,22 +13,36 @@ import {
 } from 'recharts';
 import { useLoaderData, useParams } from "react-router";
 import { format } from "../../utilitis/utilitis";
+import { getDataToLocal, setDataToLocal } from "../../utilitis/localHost";
+import { useState } from "react";
 
 const AppDetails = () => {
   const appDeatialsData = useLoaderData();
   const { id } = useParams();
   const newDetailsData = appDeatialsData.find((a) => Number(id) === a.id);
-  const { ratings, image, title, companyName, downloads, ratingAvg, reviews } = newDetailsData;
+  const { ratings, image, title, companyName, downloads, ratingAvg, reviews, size, description } = newDetailsData;
+  const [clickable, setClickable] = useState(false)
+  const store = {
+    image,
+    title,
+    downloads,
+    ratingAvg,
+    size,
+    id
+  }
+  const installed = getDataToLocal().includes(JSON.stringify(newDetailsData.id));
+  const handlbtnClick = () => {
+    setDataToLocal(store);
+    setClickable(true)
 
-  console.log(format(downloads));
-
+  }
 
   return (
     <>
       <section className="py-20 space-y-10">
         <div className="appdetails grid grid-cols-[1fr_3fr] gap-x-10 ">
           <div className="img">
-            <img src={image} alt="" className="h-full aspect-auto" />
+            <img src={image} alt="" className="h-full aspect-auto object-cover" />
           </div>
           <div className="details-info">
             <h2 className="text-[32px] font-extrabold text-[#001931]">{title}</h2>
@@ -53,8 +66,8 @@ const AppDetails = () => {
               </div>
 
             </div>
-            <button className="btn-green !no-underline">
-              Install Now (293 MB)
+            <button onClick={handlbtnClick} disabled={clickable} className={`btn-green !no-underline ${clickable && 'pointer-events-none '}`}>
+              {clickable ? `Installed` : `Install Now (${size} MB)`}
             </button>
           </div>
         </div>
@@ -97,11 +110,7 @@ const AppDetails = () => {
             Description
           </h4>
           <p className="text- text text-[#627382]">
-            This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.
-            <br />
-            A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.
-            <br />
-            For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine. By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day.
+            {description}
           </p>
         </div>
       </section >

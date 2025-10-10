@@ -7,6 +7,7 @@ import Installation from "../pages/Installatioin/Installation";
 import Errorpath from "../pages/404/not-found";
 import axios from "axios";
 import AppDetails from "../pages/AppDetails/AppDetails";
+import AppNotFound from "../pages/not-found/AppNotFound";
 
 const router = createBrowserRouter([
 
@@ -29,10 +30,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/installation',
+        loader: () => axios('../apps-data.json').then((dt) => dt.data),
         Component: Installation
       },
       {
         path: '/appDetails/:id',
+        errorElement: <AppNotFound></AppNotFound>,
         loader: () => axios('../apps-data.json').then((dt) => dt.data),
         Component: AppDetails
       },
